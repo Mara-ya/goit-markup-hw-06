@@ -412,6 +412,7 @@ a {
 .company-list {
     display: flex;
     margin-top: 50px;
+    justify-content: space-around;
 }
 
 .company-item + .company-item {
