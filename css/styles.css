@@ -826,10 +826,13 @@ address{
 
 .modal-check:checked + .modal-check-label > span {
     background-color: var(--corporate-color);
-    border: 0;}
+    border: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-check:checked + .modal-check-label svg {
     fill: #fff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check-label{
